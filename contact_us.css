@@ -1,0 +1,112 @@
+
+/*styling for the whole page goes here*/
+
+body {
+	font-size: 16px;
+    background-color: #ffffff;
+	color: #000000de;
+}
+ /*Logo styling*/
+.logo {
+	max-width: 250px;
+	
+}
+
+
+ /* nav styling for hyperlinks at top menu */
+nav {
+	padding: 1px;
+	text-align: center;
+	background-color: #e6e6e6;
+
+  }
+
+/* nav styling for hyperlinks at top menu */
+nav ul {
+	gap: 3in;
+	list-style-type: none;
+      margin: 0;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+	  background-color: #913c3c;
+      
+}
+
+
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace, Courier, monospace;
+}
+
+/*styling for the page title*/
+.title {
+	background-color: #913c3c;
+	padding: 11px;
+	font-family: monospace;
+	align-items: center;
+	
+}
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-box {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+
+
+
+
+/*styling for the bottom copyright information*/
+footer {
+    font-style: italic;
+	font-size: 12px;
+	text-align: center;
+}

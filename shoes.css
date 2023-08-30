@@ -1,0 +1,136 @@
+
+
+body {
+	font-size: 16px;
+    background-color: #ffffff;
+	color: #000000de;
+}
+ 
+.logo {
+	max-width: 250px;
+	
+}
+
+
+
+nav {
+	padding: 1px;
+	text-align: center;
+	background-color: #e6e6e6;
+
+  }
+
+
+nav ul {
+	gap: 3in;
+	list-style-type: none;
+      margin: 0;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+	  background-color: #913c3c;
+      
+}
+
+
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace, Courier, monospace;
+}
+
+
+.title {
+	background-color: #913c3c;
+	padding: 11px;
+	font-family: monospace;
+	align-items: center;
+	
+}
+
+
+  .gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .item {
+    flex: 0 0 30%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  h2 {
+    margin-top: 10px;
+  }
+  
+  p {
+    margin-top: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+
+.calc{
+  padding: 10px;
+  border-color: black;
+  background-color: #913c3c;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.total{
+  border-color: #000;
+  background-color: #913c3c;
+  padding: .2em 10em;
+  font-size: larger;
+  border-radius: 10px;
+  margin-right: 50%;
+  font-weight: bold;
+
+}
+
+footer {
+    font-style: italic;
+	font-size: 12px;
+	text-align: center;
+}
+
+input{
+  width: 75%;
+  height: 30px;
+}
+
+.api-button{
+  background-color: #913c3c;
+  padding: 1px;
+  width: 20%;
+  height: 35px;
+  font-size: 1rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+  .container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top: 3px solid;
+    padding: 10px;
+    margin-top: 10%;
+   
+
+  }
+
+  .container img{
+    height: max-content;
+    width: max-content;
+    
+  }

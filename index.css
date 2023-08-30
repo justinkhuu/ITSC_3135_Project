@@ -1,0 +1,259 @@
+
+
+body {
+	font-size: 20px;
+    background-color: #ffffff;
+	color: #000000de;
+}
+ /*Logo styling*/
+.logo {
+	max-width: 250px;
+}
+
+
+
+/*Shoes store images styling*/
+.shoestore {
+	max-width: 100%;
+	max-height: 200px;
+	align-items: center;
+}
+
+
+ /* nav styling for hyperlinks at top menu */
+nav {
+	padding: 1px;
+	text-align: center;
+	background-color: #e6e6e6;
+  }
+
+/* nav styling for hyperlinks at top menu */
+nav ul {
+	gap: 3in;
+	list-style-type: none;
+      margin: 0;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+	  background-color: #913c3c;
+      
+}
+
+
+
+li {
+	text-align: left;
+	font-size: large;
+	margin-bottom: 10px;
+	
+}
+
+
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace, Courier, monospace;
+}
+
+/*styling for the page title*/
+.title {
+	background-color: #913c3c;
+	padding: 11px;
+	font-family: monospace;
+	align-items: center;
+	
+}
+
+/*styling for the overall table*/
+table {
+    background-color: #F8F8F8;
+	border: solid 2px #787878;
+	width: 500px;
+	font-size: xx-large;
+}
+
+/*styling for the title of the table*/
+th {
+    font-weight: bold;
+    text-align: left;
+	height: 50px;
+	background-color: #913c3c;
+}
+
+tr{
+	height: 50px;
+}
+
+td{
+	width: 100px;
+}
+
+
+.label {
+    font-weight: bold;
+}
+
+/*styling for the tables*/
+.altrow {
+	background-color: #E0E0E0;
+}
+
+/*styling for the Google Map link*/
+#locationlink {
+	color: #380000;
+	font-style:italic;
+}
+
+
+/*styling for the bottom copyright information*/
+footer {
+    font-style: italic;
+	font-size: 15px;
+	text-align: center;
+	
+}
+
+
+
+
+.carousel-container{
+    width: 80%;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.carousel{
+    list-style-type: none;
+    width: 100%;
+    height: 600px;
+
+    position: relative;
+}
+
+.carousel-item{
+    height: 100%;
+    width: 100%;
+
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    transition: 300ms opacity ease-in-out;
+    transition-delay: 300ms;
+}
+
+
+.carousel-item.active{
+    opacity: 1;
+    transition-delay: 0ms;
+}
+
+.carousel-item > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    
+}
+
+.carousel-btn{
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #6f0f0f;
+    position: absolute;
+    top: 50%;
+
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.carousel-btn.left{
+    left: -2.5rem;
+}
+
+.carousel-btn.right{
+    right: -2.5rem;
+}
+
+.carousel-btn:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+
+.carousel-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.7rem;
+    gap: 0.5rem;
+    
+}
+
+.nav-item{
+    height: 11px;
+    width: 11px;
+    background-color: black;
+    border-radius: 50%;
+
+    opacity: 0.3;
+
+    transition: 300ms opacity ease-in-out;
+}
+
+.nav-item.active{
+    opacity: 0.7;;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+    background-color: #6f0f0f;
+    opacity: 1;
+}
+
+
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+  }
+  
+  .menu {
+	list-style: none;
+	display: flex;
+  }
+  
+  .menu li {
+	margin-left: 10px;
+  }
+  
+  .menu li a {
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  .form{
+    background-color: #913c3c;
+    padding: 20px;
+    font-size: larger; 
+}
+button{
+    color: inherit;
+    font-size: 1.2rem;
+    padding: 0.2em 8em;
+    background: #E0E0E0;
+    border: none;
+    border-radius: 2px;
+}
+  
